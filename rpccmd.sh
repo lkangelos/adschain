@@ -1,0 +1,6 @@
+ curl --user lou:123456 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getnewaddress", "params": [] }' -H 'content-type: application/json;' http://127.0.0.1:8332  
+ curl --user lou:123456 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "listaddressgroupings", "params": [] }' -H 'content-type: application/json;' http://127.0.0.1:8332
+ curl --user lou:123456 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbalance", "params": [] }' -H 'content-type: application/json;' http://127.0.0.1:8332 
+ curl --user lou:123456 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getblockcount", "params": [] }' -H 'content-type: application/json;' http://127.0.0.1:8332   
+ curl --user lou:123456 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "settxfee", "params": [0.00001] }' -H 'content-type: application/json;' http://127.0.0.1:8332
+ curl --user lou:123456 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "sendtoaddress", "params": ["bcrt1q8nmd4ps78ruxknkf2uv55elens8w6y2pxrvl58", 0.1] }' -H 'content-type: application/json;' http://127.0.0.1:8332
